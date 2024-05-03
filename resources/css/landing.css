@@ -1,0 +1,178 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px; 
+}
+
+#Titulo-landing {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #CC0000;
+    
+}
+
+#logo {
+    width: 50px;
+    margin-right: 10px; 
+   
+}
+
+.title-container {
+    display: flex;
+    align-items: center; 
+    
+}
+
+.btn-header {
+    color: #111125; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    cursor: pointer;
+    background-color: transparent; 
+    transition: background-color 0.3s;
+}
+
+.btn-header:hover {
+    background-color: #b6b5b5;
+    border-radius: 20px;
+}
+
+.btn-container {
+    margin-right: 20px;
+    display: flex; 
+    align-items: center; 
+}
+
+.btn-container a {
+    margin-right: 10px;
+}
+
+/* Estilos para botón */
+.btn {
+    background-color: #B60000;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: #660202;
+}
+
+/* Estilos para secciones */
+section {
+    text-align: center;
+    margin-bottom: 140px; 
+    /* Espacio entre las secciones */
+    min-height: 400px; /* Altura mínima de la sección */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none; 
+    font-weight: bold;
+    color: #6D6D6D;
+}
+
+.hidden {
+    display: none;
+}
+
+.imagenes-landing {
+    width: 500px;
+    height: 500px; /* Establece una altura fija para todas las imágenes */
+    margin-right: 100px;
+}
+
+
+.pin-name {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    z-index: 1; 
+}
+.pin-container {
+    position: relative; 
+    display: inline-block; 
+    margin: 10px; 
+}
+.pin-author {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    z-index: 1; 
+}
+.author-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.follow-btn {
+    background-color: #E60023;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px; 
+}
+
+
+.pin-name,
+        .pin-author {
+            display: none; /* Oculta el nombre del pin y el div del autor por defecto */
+            position: absolute;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 5px;
+            border-radius: 5px;
+            font-weight: bold;
+            z-index: 1;
+        }
+        
+        .pin-container:hover .pin-name,
+        .pin-container:hover .pin-author {
+            display: block;
+        }
+
+

@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #C10212;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex; /* Agregar esta línea */
+    justify-content: center; /* Agregar esta línea */
+    align-items: center; /* Agregar esta línea */
+}
+
+button:hover {
+    background-color: #72030c;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: 10%;
+}
+
+#Titulo-login {
+    margin-left: 1em; /* Cambiar a unidades relativas */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #535353;
+    font-weight:bold;
+}
+
+.extra-links {
+    margin-top: 20px;
+}
+
+.social-login-container {
+    margin-top: 10px;
+}
+
+.social-login-container button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center; /* Agrega esta línea */
+}
+
+.social-login-container button img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#google-btn {
+    color: #ffffff;
+    background-color: #3F82F7;
+    
+}
+
+#facebook-btn {
+    color: #ffffff;
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+
+.imagen-redes {
+    width: 30px;
+    margin-right: 50px;
+   float:left;
+   border-radius: 5px;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none; 
+    font-weight: bold;
+    color: #6D6D6D;
+    
+}
+
+#btn-inicio-sesion{
+    font-weight:bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.usuario
+.contrasenia{
+    font-weight:bold;
+}
+
+/*ESTILOS DE LANDING PAGE*/
+
+

@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .pin-form {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pin-form h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    display: block;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .form-group textarea {
+    height: 100px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+
+  /* crearPin.css */
+.custom-select {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+   
+  }
+  
+  
+  .custom-select select option {
+    padding: 10px;
+  }
+  
+  /* estilo del elemento visible */
+  .custom-select .select-selected {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  /* triángulo para mostrar que es un select */
+  .custom-select .select-selected:after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    right: 15px;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: #000 transparent transparent transparent;
+  }
+  
+  /* estilo de los elementos opcionales */
+  .custom-select .select-items div {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .custom-select .select-items div:hover {
+    background-color: #ddd;
+  }
+  
+#board-select{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+
+  #Crear-Pin,
+  #Volver{
+    background-color: #B60000;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border-radius: 20px;
+    margin-bottom:20px;
+  }
